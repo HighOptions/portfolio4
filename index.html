@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshad Anwar </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+      </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/VA.png" alt="Logo">
+        </div>
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#page1">Home</a></li>
+            <li><a href="#page2">About</a></li>
+            <li><a href="#page3">Projects</a></li>
+            <li><a href="#page4">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="page1">
+        <div class="content1">
+        <div class="header">
+            <h1>I'm Arshad Anwar</h1>
+            <p>I'm a web developer</p>
+        </div>
+        <div class="button-container">
+           
+            <a href="#page3" class="border-button"><strong>PROJECTS</strong></a>
+            <a href="#page2" class="border-button"><strong>MORE ABOUT ME</strong></a>
+            
+        </div>
+        <div class="icon-container">
+            <a href="https://github.com/HighOptions" class="clickable-icon" style="top: 100px; left: 200px;"><img src="images/github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/arshad-anwar-8b49a9226/" class="clickable-icon" style="top: 300px; left: 400px;"><img src="images/linkedin.png" alt="linkedin"></a>
+        </div>
+        <div class="tech-stack">
+            <h2>TECH STACK</h2>
+            <div class="icon-container2">
+                <div class="tech-icon"><img src="images/html-5.png" alt="html"></div>
+                <div class="tech-icon"><img src="images/css-3.png" alt="css"></div>
+                <div class="tech-icon"><img src="images/js.png" alt="javascript"></div>
+                <div class="tech-icon"><img src="images/nodejs.png" alt="node"></div>
+                <div class="tech-icon"><img src="images/express.png" alt="express"></div>
+                <div class="tech-icon"><img src="images/mongodb.png" alt="mongodb"></div>
+                <div class="tech-icon"><img src="images/physics.png" alt="react"></div>
+            </div>
+        </div>
+        <div class="section"></div>
+    </div>
+    </section>
+    <section id="page2">
+        <div class="content">
+        <div class="aboutHeading">
+        <h2 class="typewriter">About Me</h2>
+    </div>
+    <div class="about">
+        <p>
+            I'm Arshad Anwar, an enthusiastic and motivated individual from India with a background in computer science engineering.
+            My passion lies in web development, where I excel in both frontend and backend technologies.
+            I've had the opportunity to work on various projects, honing my skills and crafting digital experiences.
+            I'm dedicated to creating responsive and visually appealing websites that leave a lasting impression.
+        </p>
+        <div class="view">
+            <div class="plane main">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+    <button class="resume"><a href="images/arshadanwarv.pdf" target="_blank">RESUME</a></button>
+</div>
+    </section>
+    <section id="page3">
+        <div class="projects-container" id="blur">
+            <h2>Latest Projects</h2>
+            <div class="projectContainer1">
+                <div class="project">
+                    <img src="images/1.jpg" onclick="openPopup()" alt="Project 1">
+                    <div class="popup" id="popup">
+                        <img src="images/2.png" alt="popup">
+                        <h2>PROJECT NAME</h2>
+                        <P>Description about the project</P>
+                        <a href="https://github.com/HighOptions"><button>visit site</button></a>
+                        <button type="button" onclick="closePopup()">close</button>
+                    </div>
+                </div>
+            <div class="project">
+                <img src="images/1.jpg" onclick="openPopup()" alt="Project 1">
+                <div class="popup" id="popup">
+                    <img src="images/2.png" alt="popup">
+                    <h2>PROJECT NAME</h2>
+                    <P>Description about the project</P>
+                    <a href="https://github.com/HighOptions"><button>visit site</button></a>
+                    <button type="button" onclick="closePopup()">close</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/1.jpg" onclick="openPopup()" alt="Project 1">
+                <div class="popup" id="popup">
+                    <img src="images/2.png" alt="popup">
+                    <h2>PROJECT NAME</h2>
+                    <P>Description about the project</P>
+                    <a href="https://github.com/HighOptions"><button>visit site</button></a>
+                    <button type="button" onclick="closePopup()">close</button>
+                </div>
+            </div>
+        </div>
+        <div class="projectContainer2">
+            <div class="project">
+                <img src="images/1.jpg" onclick="openPopup()" alt="Project 1">
+                <div class="popup" id="popup">
+                    <img src="images/2.png" alt="popup">
+                    <h2>PROJECT NAME</h2>
+                    <P>Description about the project</P>
+                    <a href="https://github.com/HighOptions"><button>visit site</button></a>
+                    <button type="button" onclick="closePopup()">close</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/1.jpg" onclick="openPopup()" alt="Project 1">
+                <div class="popup" id="popup">
+                    <img src="images/2.png" alt="popup">
+                    <h2>PROJECT NAME</h2>
+                    <P>Description about the project</P>
+                    <a href="https://github.com/HighOptions"><button>visit site</button></a>
+                    <button type="button" onclick="closePopup()">close</button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/1.jpg" onclick="openPopup()" alt="Project 1">
+                <div class="popup" id="popup">
+                    <img src="images/2.png" alt="popup">
+                    <h2>PROJECT NAME</h2>
+                    <P>Description about the project</P>
+                    <a href="https://github.com/HighOptions"><button>visit site</button></a>
+                    <button type="button" onclick="closePopup()">close</button>
+                </div>
+            </div>
+        </div>
+            <!-- PART TO ADD THE BUTTON FOR THE "SEE MORE" IN THE PROJECT SECTION -->
+        </div>
+    </section>
+    <section id="page4">
+        <div class="contactContainer">
+            <h1>Contact Me</h1>
+    <form id="submit-form" action="">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+        </div>
+    </section>
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycby-4MMkRtHoyDczM3RqIatdiAUV_3srcyBltaIK0JZqXr6geCwMvx0wNRWuJdJVE9cJ/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
